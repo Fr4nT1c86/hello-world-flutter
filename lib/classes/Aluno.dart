@@ -2,7 +2,8 @@ import 'dart:convert';
 
 Aluno alunoFromJson(String js) {
     final jsonData = json.decode(js);
-    return Aluno.fromJson(jsonData);       
+    return Aluno.fromJson(jsonData);      
+     
 }
 
 
